@@ -1,15 +1,17 @@
 site_name: Kubernetes Adoption Journey
-site_url: !ENV [SITE_URL, "https://k8s-adoption-journey.github.io"]
+site_url: !ENV [SITE_URL, "https://digitalocean.github.io/k8s-adoption-journey/"]
 site_description: Hands-on tutorial for going from day-1 to production on DigitalOcean Kubernetes.
 copyright: DigitalOcean
 repo_url: "https://github.com/digitalocean/k8s-adoption-journey"
 docs_dir: !ENV [DOCS_DIR, "docs"]
 site_dir: !ENV [SITE_DIR, "site"]
+
 nav:
   - Home: index.md
   - Getting started:
       - Installing required tools: getting-started/installing-required-tools.md
       - Authentication: getting-started/authentication.md
+
 theme:
   name: material
   logo: assets/do_logo.png
