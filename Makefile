@@ -1,12 +1,12 @@
 # Makefile for Mkdocs documentation
 #
 
-MKDOCSCMD    		?= mkdocs
-PIP_CMD				?= pip3
-VENV_FOLDER			?= venv
-export DOCS_DIR  	?= docs
-export SITE_DIR		?= site
-export SITE_URL		?= https://k8s-adoption-journey.github.io
+MKDOCSCMD           ?= mkdocs
+PIP_CMD             ?= pip3
+VENV_FOLDER         ?= venv
+export DOCS_DIR     ?= docs
+export SITE_DIR     ?= site
+export SITE_URL     ?= https://k8s-adoption-journey.github.io
 
 
 install-venv:
